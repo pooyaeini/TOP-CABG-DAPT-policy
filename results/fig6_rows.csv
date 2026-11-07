@@ -1,0 +1,21 @@
+key,label,n,mean,lo,hi,contrast,clo,chi,n12,model
+h360,Horizon day 360,2290,8.86569908,1.80299225,15.92840592,0.0,0.0,0.0,0,forest
+h270,Horizon day 270,2290,5.06668126,0.08873985,10.04462268,0.0,0.0,0.0,0,forest
+h180,Horizon day 180,2290,2.40032835,-0.60193137,5.40258808,0.01356347,-0.03298102,0.06010797,8,forest
+nosite,Discovery without site codes,2290,9.12840704,1.95049274,16.30632133,0.0,0.0,0.0,0,forest
+mns20,Minimum node size 20,2290,9.12840704,1.95049274,16.30632133,0.0,0.0,0.0,0,forest
+mns80,Minimum node size 80,2290,9.12840704,1.95049274,16.30632133,0.0,0.0,0.0,0,forest
+seed2,Fold seed 20260908,2290,9.30517267,2.1268269,16.48351844,0.0,0.0,0.0,0,forest
+seed3,Fold seed 20260909,2290,9.23221586,2.04088362,16.4235481,0.0,0.0,0.0,0,forest
+age80,Exclude 4 participants aged over 80,2286,8.87178286,1.70229055,16.04127518,0.0,0.0,0.0,0,forest
+site01,Released site code 01 only,1809,8.47858936,-0.13638645,17.09356518,0.0,0.0,0.0,0,forest
+discrepant,Exclude the record with discrepant follow-up,2289,8.94334069,1.76644963,16.12023176,0.0,0.0,0.0,0,forest
+wins,Scores winsorized at 1st and 99th percentiles,2290,9.24684496,2.13158502,16.36210489,0.0,0.0,0.0,0,forest
+landmark90,Day 90 to 365 landmark,2138,4.58440422,1.41786824,7.75094021,0.0,0.0,0.0,0,forest
+landmark85,Day 85 landmark with course to date,2152,6.04197156,2.40439312,9.67954999,0.0,0.0,0.0,0,forest
+nace,Net adverse clinical events,2290,8.9621831,1.3702024,16.5541638,0.0,0.0,0.0,0,forest
+isch,Ischemic composite,2290,0.51861835,-2.78368333,3.82092003,-1.95676479,-3.90762271,-0.00590686,780,forest
+reverse,"Reverse transport, other codes to code 01",1809,8.86313661,0.24941542,17.47685779,0.0,0.0,0.0,0,comparator
+train01,"Train on code 01, evaluate other codes",481,10.33548078,-0.16263723,20.83359879,0.0,0.0,0.0,0,forest
+smoke3,Three-level smoking encoding,2290,9.21091821,2.02969761,16.39213881,0.0,0.0,0.0,0,forest
+grf261,Repeat under grf 2.6.1,2290,9.12840704,1.95049274,16.30632133,0.0,,,0,forest

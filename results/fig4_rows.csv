@@ -1,0 +1,10 @@
+label,est,lo,hi,pct3,n12,method
+"Uniform 12-month, Kaplan-Meier difference",-9.13579767,-16.317049059200002,-1.9545462808000007,0.0,2290.0,analytic Kaplan-Meier
+"Uniform 12-month, doubly robust score",-9.12840704,-16.17513472,-1.837181,0.0,2290.0,fixed-prediction bootstrap
+"Uniform 12-month, clustered bootstrap",-9.329535040890523,-16.06172562997618,-2.0332096619714055,0.0,2290.0,clustered full-pipeline bootstrap
+"Causal survival forest rule, original estimate",0.0,,,100.0,0.0,zero by construction
+Restricted comparator rule,0.0,,,100.0,0.0,zero by construction
+Interaction comparator rule,0.0,,,100.0,0.0,zero by construction
+Constrained comparator rule,0.0,,,100.0,0.0,zero by construction
+Minimally penalized interaction rule,-1.215412,-2.488008,0.057185,93.624454,146.0,doubly robust score
+"Causal survival forest rule, clustered bootstrap",-0.4488264658610684,-4.288565037067861,0.8292777140342635,96.58655021834062,,clustered full-pipeline bootstrap

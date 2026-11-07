@@ -1,0 +1,90 @@
+{
+ "ridge": {
+  "auc": 0.5328326741435581,
+  "auprc": 0.2231559828362658,
+  "brier": 0.15785720958351138,
+  "logloss": 0.4963760982649438,
+  "slope": 0.41853729964862885,
+  "citl": -0.004641383918114724,
+  "pmin": 0.01277355500465204,
+  "pmax": 0.46528910981212745
+ },
+ "xgb": {
+  "auc": 0.544125577498999,
+  "auprc": 0.2384427042486779,
+  "brier": 0.1571142227757108,
+  "logloss": 0.49349186419997837,
+  "slope": 0.9736469399625232,
+  "citl": 0.0029665025128054984,
+  "pmin": 0.0876450389623642,
+  "pmax": 0.36896997690200806
+ },
+ "prevalence": 0.1966183574879227,
+ "tuning": [
+  {
+   "fold": 0,
+   "n": 406,
+   "occl": 81,
+   "C": 0.03162277660168379,
+   "rounds": 36,
+   "max_depth": 2,
+   "learning_rate": 0.05,
+   "min_child_weight": 5,
+   "subsample": 0.8,
+   "colsample_bytree": 1.0,
+   "reg_lambda": 5
+  },
+  {
+   "fold": 1,
+   "n": 424,
+   "occl": 91,
+   "C": 0.0001,
+   "rounds": 7,
+   "max_depth": 2,
+   "learning_rate": 0.05,
+   "min_child_weight": 5,
+   "subsample": 0.8,
+   "colsample_bytree": 1.0,
+   "reg_lambda": 5
+  },
+  {
+   "fold": 2,
+   "n": 409,
+   "occl": 80,
+   "C": 0.0031622776601683794,
+   "rounds": 56,
+   "max_depth": 2,
+   "learning_rate": 0.05,
+   "min_child_weight": 5,
+   "subsample": 1.0,
+   "colsample_bytree": 1.0,
+   "reg_lambda": 1
+  },
+  {
+   "fold": 3,
+   "n": 411,
+   "occl": 73,
+   "C": 0.0031622776601683794,
+   "rounds": 16,
+   "max_depth": 2,
+   "learning_rate": 0.05,
+   "min_child_weight": 5,
+   "subsample": 0.8,
+   "colsample_bytree": 1.0,
+   "reg_lambda": 5
+  },
+  {
+   "fold": 4,
+   "n": 420,
+   "occl": 82,
+   "C": 0.001,
+   "rounds": 25,
+   "max_depth": 2,
+   "learning_rate": 0.03,
+   "min_child_weight": 5,
+   "subsample": 0.8,
+   "colsample_bytree": 0.8,
+   "reg_lambda": 1
+  }
+ ]
+}
